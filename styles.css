@@ -1,6 +1,6 @@
 .container { width: 360px;}
 .hidden {
-	display: none;
+	display: none !important;
 }
 #player-form {
 	display:flex;
