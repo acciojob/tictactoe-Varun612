@@ -1,1 +1,27 @@
-/*  your css code here. If applicable */
+.container { width: 360px;}
+.hidden {
+	display: none;
+}
+#player-form {
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+}
+.board {
+	display: grid;grid-template-columns: repeat(3,1fr); gap:0;margin-top: 20px;column-gap: 0 !important;
+}
+.message { margin-top: 20px; font-size: 1.2rem; }
+.cell {
+	width:100px; height:100px; background:pink; display: flex; justify-content: center;
+	align-items: center; cursor: pointer; font-size: 2rem;border:1px solid black;
+}
+.background {
+	background-color: purple;
+}
+input[type=text] {
+	width:100%; padding:8px;margin-top:5px;box-sizing: border-box;
+}
+button {
+	margin-top:10px;padding:10px 20px;cursor:pointer;
+}
