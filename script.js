@@ -1,6 +1,6 @@
 const formEl=document.getElementById('player-form')
 const gameEl=document.getElementById('game-board')
-const startBtn=document.getElementById('start')
+const startBtn=document.getElementById('submit')
 const messageEl =document.getElementById('message')
 const cells =Array.from(document.querySelectorAll('.cell'))
 
