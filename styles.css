@@ -1,12 +1,6 @@
 .container { width: 360px;}
 .hidden {
-	display: none !important;
-}
-#player-form {
-	display:flex;
-	flex-direction: column;
-	justify-content:center;
-	align-items:center;
+	display: none;
 }
 .board {
 	display: grid;grid-template-columns: repeat(3,1fr); gap:0;margin-top: 20px;column-gap: 0 !important;

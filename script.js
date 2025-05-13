@@ -23,7 +23,7 @@ startBtn.addEventListener('click',(event)=> {
 cells.forEach((cell,idx) => {
 	cell.addEventListener('click',() => {
 		if(board[idx] || checkWinner()) return;
-		board[idx] = turn ===0? 'X':'O'
+		board[idx] = turn ===0? 'x':'o'
 		cell.textContent= board[idx]
 		const winnerCombo = checkWinner()
 			 if(winnerCombo) {
